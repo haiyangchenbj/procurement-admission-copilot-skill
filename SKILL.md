@@ -1,11 +1,22 @@
 ---
 name: procurement-admission-copilot
-description: Shadow-mode copilot for B2B procurement admission. Given a supplier's raw qualification inputs, it checks material-package completeness and internal consistency; given a set of approval cases, it tracks status, stalls, and gaps. It never drafts contract terms or makes the admission decision — only structures and flags for a human to decide.
+slug: procurement-admission-copilot-skill
+displayName: Procurement Admission Copilot
+description: >
+  Shadow-mode copilot for B2B procurement admission. Given a supplier's raw qualification inputs, it checks material-package completeness and internal consistency; given a set of approval cases, it tracks status, stalls, and gaps. It never drafts contract terms or makes the admission decision — only structures and flags for a human to decide. Trigger keywords: procurement admission, supplier readiness, vendor onboarding, material package, 采购准入, 供应商材料, 准入审查, 供应商准入.
 description_zh: 采购准入影子助手
 description_en: Procurement Admission Copilot
-version: 1.0.0
-disable: false
+version: "1.0.1"
 agent_created: true
+read_when:
+  - "procurement admission"
+  - "supplier readiness"
+  - "vendor onboarding"
+  - "material package"
+  - "采购准入"
+  - "供应商材料"
+  - "准入审查"
+  - "供应商准入"
 ---
 
 # Procurement Admission Copilot
